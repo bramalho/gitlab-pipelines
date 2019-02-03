@@ -2,7 +2,7 @@
 
 @setup
     $branch = isset($branch) ? $branch : "master";
-    $repository = 'git@gitlab.com:h-halo/communicator.git';
+    $repository = 'git@gitlab.com:<PROJECT_REPOSITORY>';
     $releases_dir = '/var/www/<PROJECT_NAME>/releases';
     $app_dir = '/var/www/<PROJECT_NAME>';
     $release = date('YmdHis');
